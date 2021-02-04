@@ -8,6 +8,6 @@ RSpec.describe Matriz do
     expect(@prueba).not_to eq (nil)
   end 
   it "Se obtiene la matriz correcta" do
-    expect(@prueba.to_s).to eq ("")
+    expect(@prueba.to_s).to eq ("[]")
   end 
 end

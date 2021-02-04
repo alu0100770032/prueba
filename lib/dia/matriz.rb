@@ -15,6 +15,8 @@ class Matriz
   def add(element) 
     @matriz << element
   end
-
-
+  def to_s
+    @matriz.to_s
+  end
+  
 end

@@ -11,4 +11,10 @@ class Matriz
       end
     end
   end
+
+  def add(element) 
+    @matriz << element
+  end
+
+
 end

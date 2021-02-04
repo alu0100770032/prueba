@@ -1,8 +1,7 @@
 class Matriz
   def initialize (&block)
     @matriz = []
-    @n = 0
-    @m = 0
+    @personas = []
     if block_given?
       if block.arity == 1
         yield self
@@ -18,5 +17,10 @@ class Matriz
   def to_s
     @matriz.to_s
   end
-  
+  def to_s_personas
+   
+  end
+  def persona(nombre, options = {})
+   
+end
 end
